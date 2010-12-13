@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>HTML 5</title>
+  <%= stylesheet_link_tag 'html5-reset' %>
+  <!--[if IE]>
+  <%= javascript_include_tag 'html5' %>
+  <![endif]-->
+  <%= csrf_meta_tag %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
